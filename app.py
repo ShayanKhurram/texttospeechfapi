@@ -487,5 +487,3 @@ async def cleanup_inactive_sessions():
             print(f"Error in cleanup_inactive_sessions: {str(e)}")
             await asyncio.sleep(60)  # If error, still wait before retrying
 
-if __name__ == "__main__":
-    uvicorn.run("b:app", host="0.0.0.0", port=8000, reload=True)
