@@ -1,0 +1,9 @@
+assemblyai==0.37.0
+fastapi==0.115.12
+numpy==2.2.5
+protobuf==6.31.0
+pydantic==2.11.4
+python-dotenv==1.1.0
+sounddevice==0.5.1
+uvicorn==0.34.2
+wavio==0.0.9
